@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <TextView
+        android:id="@+id/text_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Demande deposition"
+        android:textAlignment="center"
+        android:textColor="#107ED6"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/edNum_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Saisir un numero pour demander sa position"
+        android:inputType="number"
+        android:padding="15dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnsendSMS"
+        android:layout_width="242dp"
+        android:layout_height="81dp"
+        android:padding="15dp"
+        android:text="ENVOIE SMS" />
+</LinearLayout>
